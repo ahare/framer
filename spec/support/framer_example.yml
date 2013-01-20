@@ -1,0 +1,10 @@
+---
+:root1:
+  :root1_dir1:
+    :root1_dir1_sub1: {}
+  :root1_dir2: {}
+:root2:
+  :root2_dir1: {}
+  :root2_dir2:
+    :root2_dir2_sub1: {}
+    :root2_dir2_sub2: {}
