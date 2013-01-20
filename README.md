@@ -1,6 +1,6 @@
 # Framer
 
-Framer creates file structures from YAML files.
+Framer creates directory structures from YAML files.
 
 ## Installation
 
@@ -18,7 +18,31 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Framer is designed to take a YAML file and turn it into a directory structure on disk. 
+
+First you need to have a YAML file that describes your directory structure:
+
+    # framer.yml
+    ---
+    :root1:
+      :root1_dir1:
+        :root1_dir1_sub1: {}
+      :root1_dir2: {}
+    :root2:
+      :root2_dir1: {}
+      :root2_dir2:
+        :root2_dir2_sub1: {}
+        :root2_dir2_sub2: {}
+
+Then you can use either the API to generate the structure:
+
+    Framer.frame "path_to_yaml_file", "path_to_output_dir"
+
+Or you can generate the same structure from the comand line:
+
+    $ framer frame "path_to_yaml_file", "path_to_output_dir"
+
+*NOTE:* You can execute `$ framer frame` without any arguments and Framer will look for a "framer.yml" in the current directory and build the output in the current directory by defualt.
 
 ## Contributing
 
