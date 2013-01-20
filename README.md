@@ -42,7 +42,7 @@ Or you can generate the same structure from the comand line:
 
     $ framer frame "path_to_yaml_file", "path_to_output_dir"
 
-*NOTE:* You can execute `$ framer frame` without any arguments and Framer will look for a "framer.yml" in the current directory and build the output in the current directory by defualt.
+*NOTE:* You can execute `$ framer frame` without any arguments and Framer will look for a "framer.yml" in the current directory and build the output in the current directory by default.
 
 ## Contributing
 
