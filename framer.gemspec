@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files`.split($/)
   s.test_files    = "spec"
-  s.require_paths = "lib"
+  s.require_paths = ["lib"]
   s.executables   = "framer" 
 
   s.add_dependency "thor"
