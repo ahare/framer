@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version       = Framer::VERSION
   s.authors       = ["Andrew Hare"]
   s.email         = [""]
-  s.description   = %q{TODO: Write a description}
-  s.summary       = %q{TODO: Write a summary}
+  s.description   = "A simple gem for creating directory structures from YAML files."
+  s.summary       = "A simple gem for creating directory structures from YAML files."
   s.homepage      = ""
 
   s.files         = `git ls-files`.split($/)
